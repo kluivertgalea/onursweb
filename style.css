@@ -1,0 +1,19 @@
+#carouselExample {
+    max-width: 600px; /* or whatever size you want */
+    margin: 0 auto;    /* centers the whole carousel */
+  }
+  
+  .carousel-item {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-item img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+  }
+
+  
